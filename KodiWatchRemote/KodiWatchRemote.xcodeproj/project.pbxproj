@@ -1,0 +1,796 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		79023D051BBAFC2D00B88C02 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D041BBAFC2D00B88C02 /* main.m */; };
+		79023D081BBAFC2D00B88C02 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D071BBAFC2D00B88C02 /* AppDelegate.m */; };
+		79023D0B1BBAFC2D00B88C02 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D0A1BBAFC2D00B88C02 /* ViewController.m */; };
+		79023D0E1BBAFC2D00B88C02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79023D0C1BBAFC2D00B88C02 /* Main.storyboard */; };
+		79023D101BBAFC2D00B88C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D0F1BBAFC2D00B88C02 /* Images.xcassets */; };
+		79023D131BBAFC2D00B88C02 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 79023D111BBAFC2D00B88C02 /* LaunchScreen.xib */; };
+		79023D1F1BBAFC2D00B88C02 /* KodiWatchRemoteTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D1E1BBAFC2D00B88C02 /* KodiWatchRemoteTests.m */; };
+		79023D321BBAFC6000B88C02 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D311BBAFC6000B88C02 /* InterfaceController.m */; };
+		79023D341BBAFC6000B88C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; };
+		79023D381BBAFC6000B88C02 /* KodiWatchRemote WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 79023D371BBAFC6000B88C02 /* KodiWatchRemote WatchKit App.app */; };
+		79023D401BBAFC6000B88C02 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79023D3E1BBAFC6000B88C02 /* Interface.storyboard */; };
+		79023D421BBAFC6000B88C02 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D411BBAFC6000B88C02 /* Images.xcassets */; };
+		79023D451BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 79023D2C1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		79023D4F1BBAFD7100B88C02 /* KodiRemoteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D4E1BBAFD7100B88C02 /* KodiRemoteAPI.m */; };
+		79023D521BBAFF9800B88C02 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D511BBAFF9800B88C02 /* Settings.m */; };
+		79023D551BBB047900B88C02 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D541BBB047900B88C02 /* GTMNSString+HTML.m */; };
+		79023D8C1BBB160200B88C02 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D841BBB160200B88C02 /* back.png */; };
+		79023D8D1BBB160200B88C02 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D851BBB160200B88C02 /* down.png */; };
+		79023D8E1BBB160200B88C02 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D861BBB160200B88C02 /* left.png */; };
+		79023D8F1BBB160200B88C02 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D871BBB160200B88C02 /* play.png */; };
+		79023D901BBB160200B88C02 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D881BBB160200B88C02 /* right.png */; };
+		79023D911BBB160200B88C02 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D891BBB160200B88C02 /* select.png */; };
+		79023D921BBB160200B88C02 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D8A1BBB160200B88C02 /* stop.png */; };
+		79023D931BBB160200B88C02 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D8B1BBB160200B88C02 /* up.png */; };
+		79023D9D1BBB160F00B88C02 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D951BBB160F00B88C02 /* back.png */; };
+		79023D9E1BBB160F00B88C02 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D961BBB160F00B88C02 /* down.png */; };
+		79023D9F1BBB160F00B88C02 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D971BBB160F00B88C02 /* left.png */; };
+		79023DA01BBB160F00B88C02 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D981BBB160F00B88C02 /* play.png */; };
+		79023DA11BBB160F00B88C02 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D991BBB160F00B88C02 /* right.png */; };
+		79023DA21BBB160F00B88C02 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D9A1BBB160F00B88C02 /* select.png */; };
+		79023DA31BBB160F00B88C02 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D9B1BBB160F00B88C02 /* stop.png */; };
+		79023DA41BBB160F00B88C02 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D9C1BBB160F00B88C02 /* up.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		79023D191BBAFC2D00B88C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79023CF71BBAFC2D00B88C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79023CFE1BBAFC2D00B88C02;
+			remoteInfo = KodiWatchRemote;
+		};
+		79023D391BBAFC6000B88C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79023CF71BBAFC2D00B88C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79023D361BBAFC6000B88C02;
+			remoteInfo = "KodiWatchRemote WatchKit App";
+		};
+		79023D431BBAFC6000B88C02 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 79023CF71BBAFC2D00B88C02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79023D2B1BBAFC6000B88C02;
+			remoteInfo = "KodiWatchRemote WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		79023D4C1BBAFC6000B88C02 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				79023D451BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		79023CFF1BBAFC2D00B88C02 /* KodiWatchRemote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KodiWatchRemote.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79023D031BBAFC2D00B88C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79023D041BBAFC2D00B88C02 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		79023D061BBAFC2D00B88C02 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		79023D071BBAFC2D00B88C02 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		79023D091BBAFC2D00B88C02 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		79023D0A1BBAFC2D00B88C02 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		79023D0D1BBAFC2D00B88C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		79023D0F1BBAFC2D00B88C02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79023D121BBAFC2D00B88C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		79023D181BBAFC2D00B88C02 /* KodiWatchRemoteTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KodiWatchRemoteTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		79023D1D1BBAFC2D00B88C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79023D1E1BBAFC2D00B88C02 /* KodiWatchRemoteTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KodiWatchRemoteTests.m; sourceTree = "<group>"; };
+		79023D2C1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "KodiWatchRemote WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79023D2F1BBAFC6000B88C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79023D301BBAFC6000B88C02 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		79023D311BBAFC6000B88C02 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		79023D331BBAFC6000B88C02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79023D371BBAFC6000B88C02 /* KodiWatchRemote WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KodiWatchRemote WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		79023D3D1BBAFC6000B88C02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79023D3F1BBAFC6000B88C02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		79023D411BBAFC6000B88C02 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		79023D4D1BBAFD7100B88C02 /* KodiRemoteAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KodiRemoteAPI.h; sourceTree = "<group>"; };
+		79023D4E1BBAFD7100B88C02 /* KodiRemoteAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KodiRemoteAPI.m; sourceTree = "<group>"; };
+		79023D501BBAFF9800B88C02 /* Settings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Settings.h; sourceTree = "<group>"; };
+		79023D511BBAFF9800B88C02 /* Settings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Settings.m; sourceTree = "<group>"; };
+		79023D531BBB047900B88C02 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		79023D541BBB047900B88C02 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		79023D561BBB04E400B88C02 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
+		79023D571BBB0D8D00B88C02 /* CommandEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandEnum.h; sourceTree = "<group>"; };
+		79023D841BBB160200B88C02 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		79023D851BBB160200B88C02 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		79023D861BBB160200B88C02 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		79023D871BBB160200B88C02 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		79023D881BBB160200B88C02 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		79023D891BBB160200B88C02 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		79023D8A1BBB160200B88C02 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		79023D8B1BBB160200B88C02 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+		79023D951BBB160F00B88C02 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		79023D961BBB160F00B88C02 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
+		79023D971BBB160F00B88C02 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
+		79023D981BBB160F00B88C02 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		79023D991BBB160F00B88C02 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
+		79023D9A1BBB160F00B88C02 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
+		79023D9B1BBB160F00B88C02 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		79023D9C1BBB160F00B88C02 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79023CFC1BBAFC2D00B88C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79023D151BBAFC2D00B88C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79023D291BBAFC6000B88C02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		79023CF61BBAFC2D00B88C02 = {
+			isa = PBXGroup;
+			children = (
+				79023D011BBAFC2D00B88C02 /* KodiWatchRemote */,
+				79023D1B1BBAFC2D00B88C02 /* KodiWatchRemoteTests */,
+				79023D2D1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension */,
+				79023D3B1BBAFC6000B88C02 /* KodiWatchRemote WatchKit App */,
+				79023D001BBAFC2D00B88C02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		79023D001BBAFC2D00B88C02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				79023CFF1BBAFC2D00B88C02 /* KodiWatchRemote.app */,
+				79023D181BBAFC2D00B88C02 /* KodiWatchRemoteTests.xctest */,
+				79023D2C1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension.appex */,
+				79023D371BBAFC6000B88C02 /* KodiWatchRemote WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79023D011BBAFC2D00B88C02 /* KodiWatchRemote */ = {
+			isa = PBXGroup;
+			children = (
+				79023D061BBAFC2D00B88C02 /* AppDelegate.h */,
+				79023D071BBAFC2D00B88C02 /* AppDelegate.m */,
+				79023D091BBAFC2D00B88C02 /* ViewController.h */,
+				79023D0A1BBAFC2D00B88C02 /* ViewController.m */,
+				79023D0C1BBAFC2D00B88C02 /* Main.storyboard */,
+				79023D0F1BBAFC2D00B88C02 /* Images.xcassets */,
+				79023D111BBAFC2D00B88C02 /* LaunchScreen.xib */,
+				79023D021BBAFC2D00B88C02 /* Supporting Files */,
+				79023D4D1BBAFD7100B88C02 /* KodiRemoteAPI.h */,
+				79023D4E1BBAFD7100B88C02 /* KodiRemoteAPI.m */,
+				79023D501BBAFF9800B88C02 /* Settings.h */,
+				79023D511BBAFF9800B88C02 /* Settings.m */,
+				79023D531BBB047900B88C02 /* GTMNSString+HTML.h */,
+				79023D541BBB047900B88C02 /* GTMNSString+HTML.m */,
+				79023D561BBB04E400B88C02 /* GTMDefines.h */,
+				79023D571BBB0D8D00B88C02 /* CommandEnum.h */,
+			);
+			path = KodiWatchRemote;
+			sourceTree = "<group>";
+		};
+		79023D021BBAFC2D00B88C02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79023D031BBAFC2D00B88C02 /* Info.plist */,
+				79023D041BBAFC2D00B88C02 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79023D1B1BBAFC2D00B88C02 /* KodiWatchRemoteTests */ = {
+			isa = PBXGroup;
+			children = (
+				79023D1E1BBAFC2D00B88C02 /* KodiWatchRemoteTests.m */,
+				79023D1C1BBAFC2D00B88C02 /* Supporting Files */,
+			);
+			path = KodiWatchRemoteTests;
+			sourceTree = "<group>";
+		};
+		79023D1C1BBAFC2D00B88C02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79023D1D1BBAFC2D00B88C02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79023D2D1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				79023D831BBB160200B88C02 /* icons */,
+				79023D301BBAFC6000B88C02 /* InterfaceController.h */,
+				79023D311BBAFC6000B88C02 /* InterfaceController.m */,
+				79023D331BBAFC6000B88C02 /* Images.xcassets */,
+				79023D2E1BBAFC6000B88C02 /* Supporting Files */,
+			);
+			path = "KodiWatchRemote WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		79023D2E1BBAFC6000B88C02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79023D2F1BBAFC6000B88C02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79023D3B1BBAFC6000B88C02 /* KodiWatchRemote WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				79023D941BBB160F00B88C02 /* icons */,
+				79023D3E1BBAFC6000B88C02 /* Interface.storyboard */,
+				79023D411BBAFC6000B88C02 /* Images.xcassets */,
+				79023D3C1BBAFC6000B88C02 /* Supporting Files */,
+			);
+			path = "KodiWatchRemote WatchKit App";
+			sourceTree = "<group>";
+		};
+		79023D3C1BBAFC6000B88C02 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				79023D3D1BBAFC6000B88C02 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		79023D831BBB160200B88C02 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				79023D841BBB160200B88C02 /* back.png */,
+				79023D851BBB160200B88C02 /* down.png */,
+				79023D861BBB160200B88C02 /* left.png */,
+				79023D871BBB160200B88C02 /* play.png */,
+				79023D881BBB160200B88C02 /* right.png */,
+				79023D891BBB160200B88C02 /* select.png */,
+				79023D8A1BBB160200B88C02 /* stop.png */,
+				79023D8B1BBB160200B88C02 /* up.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+		79023D941BBB160F00B88C02 /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				79023D951BBB160F00B88C02 /* back.png */,
+				79023D961BBB160F00B88C02 /* down.png */,
+				79023D971BBB160F00B88C02 /* left.png */,
+				79023D981BBB160F00B88C02 /* play.png */,
+				79023D991BBB160F00B88C02 /* right.png */,
+				79023D9A1BBB160F00B88C02 /* select.png */,
+				79023D9B1BBB160F00B88C02 /* stop.png */,
+				79023D9C1BBB160F00B88C02 /* up.png */,
+			);
+			path = icons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79023CFE1BBAFC2D00B88C02 /* KodiWatchRemote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79023D221BBAFC2D00B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemote" */;
+			buildPhases = (
+				79023CFB1BBAFC2D00B88C02 /* Sources */,
+				79023CFC1BBAFC2D00B88C02 /* Frameworks */,
+				79023CFD1BBAFC2D00B88C02 /* Resources */,
+				79023D4C1BBAFC6000B88C02 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79023D441BBAFC6000B88C02 /* PBXTargetDependency */,
+			);
+			name = KodiWatchRemote;
+			productName = KodiWatchRemote;
+			productReference = 79023CFF1BBAFC2D00B88C02 /* KodiWatchRemote.app */;
+			productType = "com.apple.product-type.application";
+		};
+		79023D171BBAFC2D00B88C02 /* KodiWatchRemoteTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79023D251BBAFC2D00B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemoteTests" */;
+			buildPhases = (
+				79023D141BBAFC2D00B88C02 /* Sources */,
+				79023D151BBAFC2D00B88C02 /* Frameworks */,
+				79023D161BBAFC2D00B88C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79023D1A1BBAFC2D00B88C02 /* PBXTargetDependency */,
+			);
+			name = KodiWatchRemoteTests;
+			productName = KodiWatchRemoteTests;
+			productReference = 79023D181BBAFC2D00B88C02 /* KodiWatchRemoteTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		79023D2B1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79023D4B1BBAFC6000B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemote WatchKit Extension" */;
+			buildPhases = (
+				79023D281BBAFC6000B88C02 /* Sources */,
+				79023D291BBAFC6000B88C02 /* Frameworks */,
+				79023D2A1BBAFC6000B88C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				79023D3A1BBAFC6000B88C02 /* PBXTargetDependency */,
+			);
+			name = "KodiWatchRemote WatchKit Extension";
+			productName = "KodiWatchRemote WatchKit Extension";
+			productReference = 79023D2C1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		79023D361BBAFC6000B88C02 /* KodiWatchRemote WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 79023D4A1BBAFC6000B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemote WatchKit App" */;
+			buildPhases = (
+				79023D351BBAFC6000B88C02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KodiWatchRemote WatchKit App";
+			productName = "KodiWatchRemote WatchKit App";
+			productReference = 79023D371BBAFC6000B88C02 /* KodiWatchRemote WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		79023CF71BBAFC2D00B88C02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = posdorfer;
+				TargetAttributes = {
+					79023CFE1BBAFC2D00B88C02 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					79023D171BBAFC2D00B88C02 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 79023CFE1BBAFC2D00B88C02;
+					};
+					79023D2B1BBAFC6000B88C02 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					79023D361BBAFC6000B88C02 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7ZVFUCTZ2V;
+					};
+				};
+			};
+			buildConfigurationList = 79023CFA1BBAFC2D00B88C02 /* Build configuration list for PBXProject "KodiWatchRemote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 79023CF61BBAFC2D00B88C02;
+			productRefGroup = 79023D001BBAFC2D00B88C02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79023CFE1BBAFC2D00B88C02 /* KodiWatchRemote */,
+				79023D171BBAFC2D00B88C02 /* KodiWatchRemoteTests */,
+				79023D2B1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension */,
+				79023D361BBAFC6000B88C02 /* KodiWatchRemote WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		79023CFD1BBAFC2D00B88C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79023D0E1BBAFC2D00B88C02 /* Main.storyboard in Resources */,
+				79023D131BBAFC2D00B88C02 /* LaunchScreen.xib in Resources */,
+				79023D101BBAFC2D00B88C02 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79023D161BBAFC2D00B88C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79023D2A1BBAFC6000B88C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79023D931BBB160200B88C02 /* up.png in Resources */,
+				79023D381BBAFC6000B88C02 /* KodiWatchRemote WatchKit App.app in Resources */,
+				79023D8E1BBB160200B88C02 /* left.png in Resources */,
+				79023D921BBB160200B88C02 /* stop.png in Resources */,
+				79023D341BBAFC6000B88C02 /* Images.xcassets in Resources */,
+				79023D8C1BBB160200B88C02 /* back.png in Resources */,
+				79023D8D1BBB160200B88C02 /* down.png in Resources */,
+				79023D911BBB160200B88C02 /* select.png in Resources */,
+				79023D8F1BBB160200B88C02 /* play.png in Resources */,
+				79023D901BBB160200B88C02 /* right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79023D351BBAFC6000B88C02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79023DA41BBB160F00B88C02 /* up.png in Resources */,
+				79023D401BBAFC6000B88C02 /* Interface.storyboard in Resources */,
+				79023D9F1BBB160F00B88C02 /* left.png in Resources */,
+				79023DA31BBB160F00B88C02 /* stop.png in Resources */,
+				79023D421BBAFC6000B88C02 /* Images.xcassets in Resources */,
+				79023D9D1BBB160F00B88C02 /* back.png in Resources */,
+				79023D9E1BBB160F00B88C02 /* down.png in Resources */,
+				79023DA21BBB160F00B88C02 /* select.png in Resources */,
+				79023DA01BBB160F00B88C02 /* play.png in Resources */,
+				79023DA11BBB160F00B88C02 /* right.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		79023CFB1BBAFC2D00B88C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79023D0B1BBAFC2D00B88C02 /* ViewController.m in Sources */,
+				79023D081BBAFC2D00B88C02 /* AppDelegate.m in Sources */,
+				79023D521BBAFF9800B88C02 /* Settings.m in Sources */,
+				79023D051BBAFC2D00B88C02 /* main.m in Sources */,
+				79023D4F1BBAFD7100B88C02 /* KodiRemoteAPI.m in Sources */,
+				79023D551BBB047900B88C02 /* GTMNSString+HTML.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79023D141BBAFC2D00B88C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79023D1F1BBAFC2D00B88C02 /* KodiWatchRemoteTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		79023D281BBAFC6000B88C02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79023D321BBAFC6000B88C02 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		79023D1A1BBAFC2D00B88C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79023CFE1BBAFC2D00B88C02 /* KodiWatchRemote */;
+			targetProxy = 79023D191BBAFC2D00B88C02 /* PBXContainerItemProxy */;
+		};
+		79023D3A1BBAFC6000B88C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79023D361BBAFC6000B88C02 /* KodiWatchRemote WatchKit App */;
+			targetProxy = 79023D391BBAFC6000B88C02 /* PBXContainerItemProxy */;
+		};
+		79023D441BBAFC6000B88C02 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 79023D2B1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension */;
+			targetProxy = 79023D431BBAFC6000B88C02 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		79023D0C1BBAFC2D00B88C02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79023D0D1BBAFC2D00B88C02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		79023D111BBAFC2D00B88C02 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79023D121BBAFC2D00B88C02 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		79023D3E1BBAFC6000B88C02 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				79023D3F1BBAFC6000B88C02 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		79023D201BBAFC2D00B88C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		79023D211BBAFC2D00B88C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		79023D231BBAFC2D00B88C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KodiWatchRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		79023D241BBAFC2D00B88C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = KodiWatchRemote/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		79023D261BBAFC2D00B88C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KodiWatchRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KodiWatchRemote.app/KodiWatchRemote";
+			};
+			name = Debug;
+		};
+		79023D271BBAFC2D00B88C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KodiWatchRemoteTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KodiWatchRemote.app/KodiWatchRemote";
+			};
+			name = Release;
+		};
+		79023D461BBAFC6000B88C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KodiWatchRemote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79023D471BBAFC6000B88C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "KodiWatchRemote WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		79023D481BBAFC6000B88C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = KodiWatchRemote_WatchKit_Extension;
+				INFOPLIST_FILE = "KodiWatchRemote WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		79023D491BBAFC6000B88C02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				IBSC_MODULE = KodiWatchRemote_WatchKit_Extension;
+				INFOPLIST_FILE = "KodiWatchRemote WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		79023CFA1BBAFC2D00B88C02 /* Build configuration list for PBXProject "KodiWatchRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79023D201BBAFC2D00B88C02 /* Debug */,
+				79023D211BBAFC2D00B88C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79023D221BBAFC2D00B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79023D231BBAFC2D00B88C02 /* Debug */,
+				79023D241BBAFC2D00B88C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79023D251BBAFC2D00B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemoteTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79023D261BBAFC2D00B88C02 /* Debug */,
+				79023D271BBAFC2D00B88C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79023D4A1BBAFC6000B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemote WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79023D481BBAFC6000B88C02 /* Debug */,
+				79023D491BBAFC6000B88C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		79023D4B1BBAFC6000B88C02 /* Build configuration list for PBXNativeTarget "KodiWatchRemote WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				79023D461BBAFC6000B88C02 /* Debug */,
+				79023D471BBAFC6000B88C02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 79023CF71BBAFC2D00B88C02 /* Project object */;
+}

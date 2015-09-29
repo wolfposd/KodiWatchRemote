@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Hostaddress" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Dnq-mY-teb">
+                                <rect key="frame" x="16" y="20" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Haj-GA-BTq"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Portnumber" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJN-0L-u5e">
+                                <rect key="frame" x="16" y="58" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="OYL-d2-HYT"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Username" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="io7-cJ-7on">
+                                <rect key="frame" x="16" y="96" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="Y1L-Mu-Vdw"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mtT-hU-eNU">
+                                <rect key="frame" x="16" y="134" width="568" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES" secureTextEntry="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="nK4-9r-HyR"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbw-rP-jfN">
+                                <rect key="frame" x="253" y="180" width="95" height="30"/>
+                                <state key="normal" title="Save Settings">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="saveButtonTouchUpInside:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tKw-iS-BPZ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="io7-cJ-7on" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="9zG-Bp-NIZ"/>
+                            <constraint firstItem="mtT-hU-eNU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AOK-2W-NWl"/>
+                            <constraint firstItem="mtT-hU-eNU" firstAttribute="top" secondItem="io7-cJ-7on" secondAttribute="bottom" constant="8" symbolic="YES" id="BZd-Nb-oew"/>
+                            <constraint firstItem="sbw-rP-jfN" firstAttribute="centerX" secondItem="mtT-hU-eNU" secondAttribute="centerX" id="JXp-JD-Dmv"/>
+                            <constraint firstItem="Dnq-mY-teb" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="LAh-vL-Zqd"/>
+                            <constraint firstItem="sbw-rP-jfN" firstAttribute="top" secondItem="mtT-hU-eNU" secondAttribute="bottom" constant="16" id="Vh9-SH-r0m"/>
+                            <constraint firstItem="nJN-0L-u5e" firstAttribute="trailing" secondItem="io7-cJ-7on" secondAttribute="trailing" id="bcR-S2-hQj"/>
+                            <constraint firstItem="io7-cJ-7on" firstAttribute="trailing" secondItem="mtT-hU-eNU" secondAttribute="trailing" id="bjL-5u-asr"/>
+                            <constraint firstItem="io7-cJ-7on" firstAttribute="top" secondItem="nJN-0L-u5e" secondAttribute="bottom" constant="8" symbolic="YES" id="gHg-fA-SK9"/>
+                            <constraint firstItem="Dnq-mY-teb" firstAttribute="leading" secondItem="nJN-0L-u5e" secondAttribute="leading" id="kLs-CR-NTb"/>
+                            <constraint firstItem="Dnq-mY-teb" firstAttribute="trailing" secondItem="nJN-0L-u5e" secondAttribute="trailing" id="m5s-DT-zxP"/>
+                            <constraint firstItem="io7-cJ-7on" firstAttribute="leading" secondItem="nJN-0L-u5e" secondAttribute="leading" id="vau-ge-nUM"/>
+                            <constraint firstItem="nJN-0L-u5e" firstAttribute="top" secondItem="Dnq-mY-teb" secondAttribute="bottom" constant="8" symbolic="YES" id="wje-fl-V7C"/>
+                            <constraint firstItem="mtT-hU-eNU" firstAttribute="leading" secondItem="io7-cJ-7on" secondAttribute="leading" id="yHB-lW-nC0"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="w6M-Zr-Tcs" appends="YES" id="rEL-Mc-ZbK"/>
+                        </connections>
+                    </view>
+                    <connections>
+                        <outlet property="hostLabel" destination="Dnq-mY-teb" id="Wuv-4D-Fib"/>
+                        <outlet property="passLabel" destination="mtT-hU-eNU" id="Vln-4z-Fjx"/>
+                        <outlet property="portLabel" destination="nJN-0L-u5e" id="GBf-fh-e0P"/>
+                        <outlet property="userLabel" destination="io7-cJ-7on" id="zE7-Mj-Uss"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="w6M-Zr-Tcs">
+                    <connections>
+                        <action selector="tapGestureRecognized:" destination="BYZ-38-t0r" id="oxa-2b-2Pm"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="512" y="374"/>
+        </scene>
+    </scenes>
+</document>
