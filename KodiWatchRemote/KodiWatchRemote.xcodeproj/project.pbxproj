@@ -23,9 +23,9 @@
 		79023D4F1BBAFD7100B88C02 /* KodiRemoteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D4E1BBAFD7100B88C02 /* KodiRemoteAPI.m */; };
 		79023D521BBAFF9800B88C02 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D511BBAFF9800B88C02 /* Settings.m */; };
 		79023D551BBB047900B88C02 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D541BBB047900B88C02 /* GTMNSString+HTML.m */; };
-		79E93CB01BBBFA9200AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		79E93CB11BBBFA9200AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
-		79E93CB21BBBFA9300AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		79E93CB01BBBFA9200AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; };
+		79E93CB11BBBFA9200AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; };
+		79E93CB21BBBFA9300AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -583,7 +583,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -603,7 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

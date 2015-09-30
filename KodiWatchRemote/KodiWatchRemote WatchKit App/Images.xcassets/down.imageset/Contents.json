@@ -1,27 +1,14 @@
 {
   "images" : [
     {
-      "idiom" : "universal",
-      "scale" : "1x"
-    },
-    {
-      "idiom" : "universal",
-      "scale" : "3x"
-    },
-    {
       "idiom" : "watch",
-      "filename" : "down.png",
-      "scale" : "2x"
+      "scale" : "2x",
+      "filename" : "down.png"
     },
     {
       "idiom" : "watch",
       "scale" : "2x",
-      "screen-width" : "<=145"
-    },
-    {
-      "idiom" : "watch",
-      "scale" : "2x",
-      "screen-width" : ">145"
+      "unassigned" : true
     }
   ],
   "info" : {

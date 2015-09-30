@@ -49,6 +49,8 @@
 -(void)application:(UIApplication *)application handleWatchKitExtensionRequest:(NSDictionary *)userInfo reply:(void (^)(NSDictionary *))reply
 {
     
+    reply(@{});
+    
     NSInteger command = [userInfo[@"command"] integerValue];
     
     switch (command) {
