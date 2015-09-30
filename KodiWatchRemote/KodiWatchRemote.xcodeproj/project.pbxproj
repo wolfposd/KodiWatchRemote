@@ -23,22 +23,9 @@
 		79023D4F1BBAFD7100B88C02 /* KodiRemoteAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D4E1BBAFD7100B88C02 /* KodiRemoteAPI.m */; };
 		79023D521BBAFF9800B88C02 /* Settings.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D511BBAFF9800B88C02 /* Settings.m */; };
 		79023D551BBB047900B88C02 /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 79023D541BBB047900B88C02 /* GTMNSString+HTML.m */; };
-		79023D8C1BBB160200B88C02 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D841BBB160200B88C02 /* back.png */; };
-		79023D8D1BBB160200B88C02 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D851BBB160200B88C02 /* down.png */; };
-		79023D8E1BBB160200B88C02 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D861BBB160200B88C02 /* left.png */; };
-		79023D8F1BBB160200B88C02 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D871BBB160200B88C02 /* play.png */; };
-		79023D901BBB160200B88C02 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D881BBB160200B88C02 /* right.png */; };
-		79023D911BBB160200B88C02 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D891BBB160200B88C02 /* select.png */; };
-		79023D921BBB160200B88C02 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D8A1BBB160200B88C02 /* stop.png */; };
-		79023D931BBB160200B88C02 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D8B1BBB160200B88C02 /* up.png */; };
-		79023D9D1BBB160F00B88C02 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D951BBB160F00B88C02 /* back.png */; };
-		79023D9E1BBB160F00B88C02 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D961BBB160F00B88C02 /* down.png */; };
-		79023D9F1BBB160F00B88C02 /* left.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D971BBB160F00B88C02 /* left.png */; };
-		79023DA01BBB160F00B88C02 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D981BBB160F00B88C02 /* play.png */; };
-		79023DA11BBB160F00B88C02 /* right.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D991BBB160F00B88C02 /* right.png */; };
-		79023DA21BBB160F00B88C02 /* select.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D9A1BBB160F00B88C02 /* select.png */; };
-		79023DA31BBB160F00B88C02 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D9B1BBB160F00B88C02 /* stop.png */; };
-		79023DA41BBB160F00B88C02 /* up.png in Resources */ = {isa = PBXBuildFile; fileRef = 79023D9C1BBB160F00B88C02 /* up.png */; };
+		79E93CB01BBBFA9200AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		79E93CB11BBBFA9200AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
+		79E93CB21BBBFA9300AA5E8D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 79023D331BBAFC6000B88C02 /* Images.xcassets */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -110,22 +97,6 @@
 		79023D541BBB047900B88C02 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GTMNSString+HTML.m"; sourceTree = "<group>"; };
 		79023D561BBB04E400B88C02 /* GTMDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMDefines.h; sourceTree = "<group>"; };
 		79023D571BBB0D8D00B88C02 /* CommandEnum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandEnum.h; sourceTree = "<group>"; };
-		79023D841BBB160200B88C02 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		79023D851BBB160200B88C02 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
-		79023D861BBB160200B88C02 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
-		79023D871BBB160200B88C02 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		79023D881BBB160200B88C02 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
-		79023D891BBB160200B88C02 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
-		79023D8A1BBB160200B88C02 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
-		79023D8B1BBB160200B88C02 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
-		79023D951BBB160F00B88C02 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
-		79023D961BBB160F00B88C02 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = down.png; sourceTree = "<group>"; };
-		79023D971BBB160F00B88C02 /* left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left.png; sourceTree = "<group>"; };
-		79023D981BBB160F00B88C02 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
-		79023D991BBB160F00B88C02 /* right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right.png; sourceTree = "<group>"; };
-		79023D9A1BBB160F00B88C02 /* select.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = select.png; sourceTree = "<group>"; };
-		79023D9B1BBB160F00B88C02 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
-		79023D9C1BBB160F00B88C02 /* up.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = up.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -227,7 +198,6 @@
 		79023D2D1BBAFC6000B88C02 /* KodiWatchRemote WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				79023D831BBB160200B88C02 /* icons */,
 				79023D301BBAFC6000B88C02 /* InterfaceController.h */,
 				79023D311BBAFC6000B88C02 /* InterfaceController.m */,
 				79023D331BBAFC6000B88C02 /* Images.xcassets */,
@@ -247,7 +217,6 @@
 		79023D3B1BBAFC6000B88C02 /* KodiWatchRemote WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				79023D941BBB160F00B88C02 /* icons */,
 				79023D3E1BBAFC6000B88C02 /* Interface.storyboard */,
 				79023D411BBAFC6000B88C02 /* Images.xcassets */,
 				79023D3C1BBAFC6000B88C02 /* Supporting Files */,
@@ -261,36 +230,6 @@
 				79023D3D1BBAFC6000B88C02 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		79023D831BBB160200B88C02 /* icons */ = {
-			isa = PBXGroup;
-			children = (
-				79023D841BBB160200B88C02 /* back.png */,
-				79023D851BBB160200B88C02 /* down.png */,
-				79023D861BBB160200B88C02 /* left.png */,
-				79023D871BBB160200B88C02 /* play.png */,
-				79023D881BBB160200B88C02 /* right.png */,
-				79023D891BBB160200B88C02 /* select.png */,
-				79023D8A1BBB160200B88C02 /* stop.png */,
-				79023D8B1BBB160200B88C02 /* up.png */,
-			);
-			path = icons;
-			sourceTree = "<group>";
-		};
-		79023D941BBB160F00B88C02 /* icons */ = {
-			isa = PBXGroup;
-			children = (
-				79023D951BBB160F00B88C02 /* back.png */,
-				79023D961BBB160F00B88C02 /* down.png */,
-				79023D971BBB160F00B88C02 /* left.png */,
-				79023D981BBB160F00B88C02 /* play.png */,
-				79023D991BBB160F00B88C02 /* right.png */,
-				79023D9A1BBB160F00B88C02 /* select.png */,
-				79023D9B1BBB160F00B88C02 /* stop.png */,
-				79023D9C1BBB160F00B88C02 /* up.png */,
-			);
-			path = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -377,6 +316,7 @@
 				TargetAttributes = {
 					79023CFE1BBAFC2D00B88C02 = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 7ZVFUCTZ2V;
 					};
 					79023D171BBAFC2D00B88C02 = {
 						CreatedOnToolsVersion = 6.4;
@@ -418,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				79023D0E1BBAFC2D00B88C02 /* Main.storyboard in Resources */,
+				79E93CB21BBBFA9300AA5E8D /* Images.xcassets in Resources */,
 				79023D131BBAFC2D00B88C02 /* LaunchScreen.xib in Resources */,
 				79023D101BBAFC2D00B88C02 /* Images.xcassets in Resources */,
 			);
@@ -427,6 +368,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79E93CB11BBBFA9200AA5E8D /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,16 +376,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79023D931BBB160200B88C02 /* up.png in Resources */,
 				79023D381BBAFC6000B88C02 /* KodiWatchRemote WatchKit App.app in Resources */,
-				79023D8E1BBB160200B88C02 /* left.png in Resources */,
-				79023D921BBB160200B88C02 /* stop.png in Resources */,
 				79023D341BBAFC6000B88C02 /* Images.xcassets in Resources */,
-				79023D8C1BBB160200B88C02 /* back.png in Resources */,
-				79023D8D1BBB160200B88C02 /* down.png in Resources */,
-				79023D911BBB160200B88C02 /* select.png in Resources */,
-				79023D8F1BBB160200B88C02 /* play.png in Resources */,
-				79023D901BBB160200B88C02 /* right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,16 +385,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				79023DA41BBB160F00B88C02 /* up.png in Resources */,
+				79E93CB01BBBFA9200AA5E8D /* Images.xcassets in Resources */,
 				79023D401BBAFC6000B88C02 /* Interface.storyboard in Resources */,
-				79023D9F1BBB160F00B88C02 /* left.png in Resources */,
-				79023DA31BBB160F00B88C02 /* stop.png in Resources */,
 				79023D421BBAFC6000B88C02 /* Images.xcassets in Resources */,
-				79023D9D1BBB160F00B88C02 /* back.png in Resources */,
-				79023D9E1BBB160F00B88C02 /* down.png in Resources */,
-				79023DA21BBB160F00B88C02 /* select.png in Resources */,
-				79023DA01BBB160F00B88C02 /* play.png in Resources */,
-				79023DA11BBB160F00B88C02 /* right.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -561,7 +488,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -605,7 +533,8 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -630,8 +559,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = KodiWatchRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.posdorfer.KodiWatchRemote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -640,8 +571,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = KodiWatchRemote/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = de.posdorfer.KodiWatchRemote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -650,6 +583,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -669,6 +603,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -683,6 +618,7 @@
 		79023D461BBAFC6000B88C02 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -697,6 +633,7 @@
 		79023D471BBAFC6000B88C02 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "KodiWatchRemote WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";
